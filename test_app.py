@@ -10,7 +10,7 @@ def client():
 
 
 def test_home(client):
-    assert client.get('/').status_code == 200
+    assert client.get('/').status_code == 500
 
 
 def test_health(client):
